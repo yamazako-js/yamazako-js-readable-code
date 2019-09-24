@@ -11,9 +11,18 @@ https://github.com/yamazako-js/yamazako-js-readable-code/blob/master/task.jar
 
 例 /usr/task.jar
 
-2. 以下のコマンドを実行する
+2. 辞書ファイルを用意する
 
-java -jar /usr/task.jar
+サンプルの辞書ファイルを置いています。
+
+https://github.com/yamazako-js/yamazako-js-readable-code/blob/master/sample-dictionary-data.txt
+
+3. 以下のコマンドを実行する
+
+java -jar /usr/task.jar [辞書ファイルのパス]
+
+例 java -jar /usr/task.jar /usr/sample-dictionary-data.txt
+
 
 ※ 以下のようなエラーが出たら、コマンドラインで `java -version` を実行し、 Java 11 がインストールされていることの確認を行ってください。
 
