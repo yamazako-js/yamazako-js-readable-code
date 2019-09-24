@@ -6,7 +6,7 @@ public class Main {
         runTask1();
     }
 
-    public static void runTask1(){
+    private static void runTask1(){
         System.out.print(TASK1_OUTPUT);
     }
 }
