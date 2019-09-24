@@ -7,7 +7,7 @@ public class Main {
     public static void main(String args[]) {
 
         // TODO: 引数の存在確認だけではなく、形式が正しいかの validation を行う。
-        if (args.length != 1){
+        if (args.length != 1) {
             System.out.println("データファイルのパスを入力して下さい");
             System.exit(1);
         }
